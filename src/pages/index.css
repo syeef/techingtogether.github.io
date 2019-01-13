@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
+
+
+html {
+    font-size: 14pt;
+}
+
+h1, h2, h3, h4 {
+    font-family: Prata, Georgia, serif;
+}
+
+h2 {
+    margin-top: 0px;
+    text-transform: lowercase;
+    font-size: 4em;
+}
+
+section {
+    padding: 50px 75px;
+}
+
+p {
+    font-family: Quattrocento Sans;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.half-width {
+    flex: 1;
+}
+
+.about__profile {
+    max-width: 450px;
+    flex: 1 1 auto;
+}
+
+.about__profile:last-of-type {
+    margin-left: 50px;
+}
+
+.about__title  {
+    background: linear-gradient(to right, #26185A 0%, #D50677 100%);
+    background-size: 700px;
+    background-position: right;
+    background-clip: text;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    letter-spacing: 1px;
+    text-align: right;
+    margin-bottom: 50px ;
+}
+
+.about__job  {
+    font-family: Work Sans;
+    font-weight: lighter;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color: #D50677;
+    writing-mode: vertical-lr;
+    line-height: 1em;
+    margin-right: 20px;
+}
+
+.about__icons {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__icon {
+    width: 32px;
+    height: 32px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper--column {
+    flex-direction: column;
+}
+
+.about__wrapper {
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+
+    section {
+        padding: 30px;
+    }
+
+    .about__wrapper {
+        flex-direction: column;
+    }
+
+    .about__title {
+        text-align: center;
+    }
+
+    .about__job {
+        display: none;
+    }
+
+    .about__profile {
+        left: 0%;
+        margin: 0 auto 20px;
+        width: 100%;
+        max-width: 350px;
+    }
+    .about__profile:last-of-type {
+        margin-left: auto;
+    }
+
+  }
