@@ -17,10 +17,10 @@ const About = () => (
         description="Syeef is a product designer at Cloudflare. Previously, he designed mobile apps for WorldRemit and Capital One, specialising in UX design."
         socials= {[
           {site: 'Twitter', url: 'https://twitter.com/syeef', image: gatsby},
-          {site: 'LinkedIn', url: 'https://linkedin.com/', image: gatsby},
-          {site: 'GitHub', url: 'https://twitter.com/', image: gatsby},
-          {site: 'Dribbble', url: 'https://dribbble.com/', image: gatsby},
-          {site: 'Website', url: 'https://zahratraboulsi.com!/', image: gatsby},
+          {site: 'LinkedIn', url: 'https://uk.linkedin.com/in/syeefkarim/', image: gatsby},
+          {site: 'GitHub', url: 'https://github.com/syeef', image: gatsby},
+          {site: 'Dribbble', url: 'https://dribbble.com/syeef', image: gatsby},
+          {site: 'Website', url: 'https://syeefkarim.com/', image: gatsby},
         ]}
       />
       <Profile
@@ -28,9 +28,10 @@ const About = () => (
         image={zahra}
         description="Zahra is a Front-End engineer at GemFair, a De Beers Group startup. Previously, she worked as an iOS and API developer at Bloomberg."
         socials= {[
-          {site: 'Twitter', url: 'https://twitter.com/', image: gatsby},
-          {site: 'LinkedIn', url: 'https://linkedin.com/', image: gatsby},
-          {site: 'GitHub', url: 'https://github.com/', image: gatsby},
+          {site: 'Twitter', url: 'https://twitter.com/zahrataiba', image: gatsby},
+          {site: 'LinkedIn', url: 'https://www.linkedin.com/in/zahratraboulsi/', image: gatsby},
+          {site: 'GitHub', url: 'https://github.com/ZahraTee', image: gatsby},
+          {site: 'Codepen', url: 'https://codepen.io/zahratee/', image: gatsby},
           {site: 'Website', url: 'https://zahratraboulsi.com/', image: gatsby},
         ]}
       />
